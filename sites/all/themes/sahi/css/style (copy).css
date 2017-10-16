@@ -1,0 +1,85 @@
+/**
+ * Place your custom styles here.
+ */
+
+.front .container-fluid {
+padding : 0px;
+margin : 0px;
+}
+
+.home-image {
+  overflow:hidden;
+}
+.home-image img {
+    width: 100%;
+}
+
+.sahi-tablet {
+  position:absolute;
+  z-index: 1;
+  display:none;
+  background-repeat: no-repeat;
+  background-image: url(../images/hover.png);
+  background-size: 100% 100%;
+  height: 275px;
+  width: 29%;
+  border: 1px solid red;
+}
+
+.front .hover {       /* background: red; */
+    width: 540px;
+    height: 392px;
+    position: absolute;
+    top: 41%;
+    left: 30%;
+
+}
+
+
+/*
+div.hover:hover {
+     cursor:url(../images/hover2.png), default;
+}
+*/
+
+div.tablet-hover {
+	transition:  0.3s linear;
+}
+
+div.tablet-hover {
+  width: 540px;
+  height: 392px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-size: 73% 63%;
+  background-repeat: no-repeat;
+  background-position: 65px 33px;
+  background-image: url(../images/hover.png);
+  pointerEvents: 'none';
+  z-index: 9;
+}
+
+.hover .inner-tab-image {
+  width: 42%;
+  height: 38%;
+  /* background-image: url(../images/exp.png); */
+  z-index: 999;
+  overflow: auto;
+  /* background: red; */
+  margin: 11% 28%;
+}
+
+div.inner-tab-image {
+  transition:  0.3s
+}
+div.inner-tab-image:hover {
+  cursor:none;
+  background: rgba(72, 57, 57, 0.69);
+  position: relative;
+  background-image: url(../images/exp.png);
+  background-repeat: no-repeat;
+  background-size: 111% 116%;
+  z-index: 999;
+  background-position: -11px -45px;
+}
